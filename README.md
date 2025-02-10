@@ -162,6 +162,54 @@ if __name__ == "__main__":
 ---
 
 
+---
+
+# **📌 3. Running the Python Scripts in VS Code**
+### ✅ **Step 5: Open Project in VS Code**
+1. Open **Visual Studio Code**.
+2. Click **File > Open Folder**.
+3. Select the `aws-s3-python` folder.
+
+### ✅ **Step 6: Install Dependencies**
+In VS Code, open the **terminal**  and run:
+```sh
+pip install boto3
+```
+
+### ✅ **Step 7: Run the Scripts**
+To create a bucket and upload a file, run:
+```sh
+python create_s3_bucket.py
+```
+To delete the bucket and its contents, run:
+```sh
+python delete_s3_bucket.py
+```
+
+---
+
+# **📌 4. Push Code to GitHub**
+### ✅ **Step 8: Add and Commit Files**
+After adding scripts, push them to GitHub:
+```sh
+# Stage all files
+git add .
+
+# Commit changes
+git commit -m "Added S3 bucket scripts and README"
+
+# Push to GitHub
+git push origin main
+```
+
+---
+
+# **📌 5. Verify on GitHub**
+1. Go to your GitHub repository.
+2. You should see all your files uploaded!
+
+---
+
 
 ---
 
