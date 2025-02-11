@@ -261,10 +261,15 @@ Ensures rapid recovery with minimal manual intervention.
 ✅ Example: A script can take daily snapshots of an RDS database and store them in S3.
 
 **Conclusion: Why Use Scripts?**
+
 ✅ Faster than manual setup
+
 ✅ More reliable & consistent
+
 ✅ Reduces costs through automation
+
 ✅ Improves security & compliance
+
 ✅ Enables DevOps, CI/CD, & scalability
 
 ---
